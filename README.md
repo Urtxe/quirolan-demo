@@ -1,6 +1,6 @@
 # Masajes Gros Quirolan · demo comercial
 
-Sitio estático de demostración, no oficial. Está marcado con `noindex, nofollow`. Se creó como proyecto local independiente, sin remoto de GitHub hasta que se facilite la URL del repositorio.
+Sitio estático de demostración, no oficial. Está marcado con `noindex, nofollow`. Repositorio: [Urtxe/quirolan-demo](https://github.com/Urtxe/quirolan-demo). Demo publicada en [GitHub Pages](https://urtxe.github.io/quirolan-demo/).
 
 ## Qué se verificó
 
@@ -29,11 +29,8 @@ python -m http.server 8000
 
 Abrir `http://localhost:8000`. No hay compilación ni dependencias de producción.
 
-## Publicar en GitHub Pages cuando exista el repositorio
+## Despliegue en GitHub Pages
 
-1. Crear un repositorio vacío en GitHub y facilitar su URL.
-2. Configurar `origin` y subir la rama local `main`.
-3. En **Settings → Pages → Build and deployment → Source**, elegir **GitHub Actions**.
-4. El flujo `.github/workflows/deploy.yml` publicará la raíz del proyecto en cada push a `main`. También se puede lanzar manualmente desde **Actions**.
+El remoto `origin` apunta a `https://github.com/Urtxe/quirolan-demo.git`. GitHub Pages usa **GitHub Actions**. El flujo `.github/workflows/deploy.yml` publica la raíz del proyecto en cada push a `main`; también se puede lanzar manualmente desde **Actions**.
 
 Mantener `noindex, nofollow` mientras siga siendo una demo.
