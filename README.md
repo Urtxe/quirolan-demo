@@ -13,7 +13,7 @@ Consulta de la [ficha pública de Google Maps](https://www.google.es/maps/place/
 - La vista consultada mostraba el horario de ese día, pero no permitió verificar el horario semanal completo. Se omite.
 - La ficha ofrece «Añadir sitio web» y no muestra enlace web ni sistema de reservas.
 
-Las búsquedas por nombre, dirección y teléfono no permitieron verificar una web propia, redes sociales, modalidades concretas de masaje, precios, identidad profesional ni WhatsApp. La demo no atribuye ninguno de esos datos al negocio. Su sección de masajes invita a preguntar directamente por ellos.
+Las búsquedas por nombre, dirección y teléfono no permitieron verificar una web propia, redes sociales, modalidades concretas de masaje, precios ni identidad profesional. Los enlaces de WhatsApp se han añadido a petición del usuario usando el número móvil publicado; queda por confirmar con el negocio que ese número tenga una cuenta de WhatsApp activa. La demo invita a preguntar por los datos que faltan sin presentarlos como hechos.
 
 ## Imágenes y contenido provisional
 

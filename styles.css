@@ -149,7 +149,6 @@ p {
   font-weight: 600;
 }
 .main-nav a:hover,
-.quiet-link:hover,
 .underline-link:hover {
   color: var(--clay);
 }
@@ -269,7 +268,13 @@ p {
 .button-primary:hover {
   background: #8f4c3b;
 }
-.quiet-link,
+.button-secondary {
+  border: 1px solid var(--clay);
+  color: var(--deep-clay);
+}
+.button-secondary:hover {
+  background: #f1dcc8;
+}
 .underline-link {
   display: inline-flex;
   align-items: center;
@@ -647,6 +652,13 @@ p {
   flex-direction: column;
   gap: 13px;
 }
+.button-whatsapp {
+  border: 1px solid #f1c3a6;
+  color: white;
+}
+.button-whatsapp:hover {
+  background: #845143;
+}
 .closing-action small {
   color: #f2dbcd;
   font-size: 0.72rem;
@@ -1000,21 +1012,27 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    display: block;
+    display: flex;
+    gap: 8px;
     padding: 10px 14px max(10px, env(safe-area-inset-bottom));
     background: #fffaf3f2;
     box-shadow: 0 -7px 23px #42261d24;
   }
   .mobile-call a {
+    flex: 1;
     min-height: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 18px;
-    background: var(--clay);
-    color: white;
+    border: 1px solid var(--clay);
+    color: var(--deep-clay);
     font-size: 0.84rem;
     font-weight: 700;
+  }
+  .mobile-call a:last-child {
+    background: var(--clay);
+    color: white;
   }
 }
 
