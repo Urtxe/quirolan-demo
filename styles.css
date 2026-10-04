@@ -1015,7 +1015,7 @@ p {
     display: flex;
     gap: 8px;
     padding: 10px 14px max(10px, env(safe-area-inset-bottom));
-    background: #fffaf3f2;
+    background: #fffaf3;
     box-shadow: 0 -7px 23px #42261d24;
   }
   .mobile-call a {
